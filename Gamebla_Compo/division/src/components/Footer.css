@@ -1,0 +1,23 @@
+/* FOOTER */
+#footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  height: 7.47vh;
+  background: #fff;
+  z-index: 998;
+}
+
+#footer .icon a img {
+  width: 6.04vw;
+}
+
+#footer .icon a .text {
+  font-size: 10px;
+}

@@ -1,0 +1,77 @@
+/* COMMON */
+body > * {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+div,
+a,
+li,
+ul,
+span,
+p {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #78849e;
+}
+
+body {
+  background: #f8f6f8;
+  margin-bottom: 10.3vh;
+}
+
+/* SECTION_TOP */
+.sectionTop {
+  width: 94.7vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #fff;
+  border-radius: 10px;
+  padding-top: 1.6vh;
+}
+
+.sectionTop .topIcon {
+  text-align: center;
+}
+
+.sectionTop .topIcon .imgCircle {
+  position: relative;
+  width: 13.3vw;
+  height: 13.3vw;
+  overflow: hidden;
+  border: 0.27vh solid #4fb948;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.sectionTop .topIcon .imgCircle img {
+  object-fit: cover;
+}
+
+.sectionTop .topIcon.more .imgCircle {
+  background: linear-gradient(#a8e063 0, #68bb63 66%, #4fb948 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTop .topIcon.more .imgCircle img {
+  width: 6.04vw;
+  height: 4.21vh;
+}
+
+.sectionTop .topIcon .title {
+  margin-top: 0.95vh;
+  margin-bottom: 2.85vh;
+  font-size: 12px;
+}

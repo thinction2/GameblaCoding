@@ -1,0 +1,66 @@
+/* COMMON */
+body > * {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+div,
+a,
+li,
+ul,
+span,
+p {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #78849e;
+}
+
+body {
+  background: #f8f6f8;
+  margin-bottom: 10.3vh;
+}
+
+/* HEADER */
+#header {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.36vh 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 999;
+}
+
+#header .logo {
+  width: 60%;
+  margin-left: 4.83vw;
+}
+
+#header .btnWrap {
+  display: flex;
+  justify-content: flex-end;
+  width: 27.54vw;
+  margin-right: 4.83vw;
+}
+
+#header .btnWrap img {
+  width: 4.83vw;
+  height: 2.46vh;
+}
+
+#header .btnWrap .search {
+  margin-right: 3.62vw;
+}

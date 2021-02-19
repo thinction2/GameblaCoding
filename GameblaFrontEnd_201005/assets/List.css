@@ -1,0 +1,69 @@
+/* COMMON */
+body>* {
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+div, a, li, ul, span, p {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #78849E;
+}
+
+body {
+    background: #F8F6F8;
+    margin-bottom: 10.3vh;
+}
+
+/* HEADER */
+#header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.43vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.36vh 0;
+    background: rgba(255, 255, 255, .8);
+    z-index: 999;
+}
+
+
+/* FOOTER */
+#footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    height: 7.47vh;
+    background: #fff;
+    z-index: 998;
+}
+
+#footer .icon a img {
+    width: 6.04vw;
+}
+
+#footer .icon.active a .text {
+    color: #4FB948;
+}
+
+#footer .icon a .text {
+    font-size: 10px;
+}

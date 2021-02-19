@@ -1,0 +1,445 @@
+/* COMMON */
+body>* {
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+}
+
+div, a, li, ul, span, p {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #78849E;
+}
+
+body {
+    background: #F8F6F8;
+    margin-bottom: 10.3vh;
+}
+
+/* HEADER */
+#header {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.43vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.36vh 0;
+    background: rgba(255, 255, 255, .8);
+    z-index: 999;
+    transition: all .3s;
+}
+
+#header .left {
+    width: 60%;
+    margin-left: 4.83vw;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#header .btnWrap {
+    display: flex;
+    justify-content: flex-end;
+    width: 27.54vw;
+    margin-right: 4.83vw;
+}
+
+#header .btnWrap img {
+    width: 4.83vw;
+}
+
+#header .btnWrap .search {
+    margin-right: 3.62vw;
+}
+
+/* SECTION_VIDEO_LISTS */
+.sectionVideoLists {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8vh;
+}
+
+.sectionVideoLists .block {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-bottom: 3.69vh;
+    box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.sectionVideoLists .block:last-child {
+    margin-bottom: 6.95vh;
+}
+
+.sectionVideoLists .block .title {
+    display: flex;
+    align-items: center;
+    width: 92vw;
+    margin: 0 auto;
+    padding-top: 2.46vh;
+    margin-bottom: 1.85vh;
+}
+
+.sectionVideoLists .block .title .profile {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    overflow: hidden;
+    background: rgb(158, 158, 158);
+    border: 2px solid #ff0000;
+    margin-right: 2.93vw;
+}
+
+.sectionVideoLists .block .title .nameWrap .name {
+    height: 6vw;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sectionVideoLists .block .title .nameWrap .wrap {
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionVideoLists .block .title .nameWrap .wrap span {
+    font-size: 13px;
+    color: #676767;
+}
+
+.sectionVideoLists .block .title .followBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    height: 2.46vh;
+    background: #4FB948;
+    border-radius: 5px;
+    box-shadow: 0 1.5px 3px #0000006e;
+    margin: auto;
+    margin-right: 4.8vw;
+}
+
+.sectionVideoLists .block .title .followBtn button {
+    background: none;
+    border: none;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sectionVideoLists .block .title .threeDot {
+    width: 1.06vw;
+    height: 2.09vh;
+    height: auto;
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.sectionVideoLists .block .sub {
+    font-size: 13px;
+    width: 92vw;
+    margin: 0 auto;
+    margin-top: 1.72vh;
+    margin-bottom: 1.23vh;
+}
+
+.sectionVideoLists .block .video {
+    width: 100%;
+    height: 23.39vh;
+    background: #000;
+    position: relative;
+}
+
+.sectionVideoLists .block .video .videoThumb {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.sectionVideoLists .block .video .time {
+    position: absolute;
+    right: 2.66vw;
+    bottom: .98vh;
+    display: flex;
+    width: 15.2vw;
+    height: 2.46;
+    background: #000;
+    color: #fff;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: .49vh .66vw;
+}
+
+.sectionVideoLists .block .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92vw;
+    margin: 0 auto;
+    margin-top: 1.84vh;
+    margin-bottom: 1.23vh;
+}
+
+.sectionVideoLists .block .bottom .left {
+    font-size: 13px;
+    font-weight: 700;
+    color: #4FB948;
+    position: relative;
+}
+
+.sectionVideoLists .block .bottom .left .statusComment {
+    position: absolute;
+    left: 5.6vw;
+    width: 34.66vw;
+    height: 11.08vh;
+    display: none;
+    font-size: 13px;
+    color: #78849E;
+    font-weight: 400;
+    background: #fff;
+    border: 2px solid #CDD2DC;
+}
+
+.sectionVideoLists .block .bottom .left .statusComment.active {
+    display: block;
+}
+
+.sectionVideoLists .block .bottom .left .statusComment>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.47vh auto;
+    position: relative;
+}
+
+.sectionVideoLists .block .bottom .left .statusComment>div::after {
+    content: "";
+    width: 32vw;
+    display: block;
+    border-bottom: 2px solid #CDD2DC;
+    position: absolute;
+    bottom: -.73vh;
+}
+
+.sectionVideoLists .block .bottom .left .statusComment>div:last-child::after {
+    display: none;
+}
+
+.sectionVideoLists .block .bottom .left .statusComment img {
+    width: 4vw;
+    height: 4vw;
+    margin-right: 4vw;
+}
+
+.sectionVideoLists .block .bottom .right {
+    display: flex;
+}
+
+.sectionVideoLists .block .bottom .right>* {
+    display: flex;
+    align-items: center;
+}
+
+.sectionVideoLists .block .bottom .right>span:nth-child(2) {
+    margin: 0 1.2vw;
+}
+
+.sectionVideoLists .block .bottom .right .like,
+.sectionVideoLists .block .bottom .right .comment,
+.sectionVideoLists .block .bottom .right span:nth-child(2) {
+    font-size: 12px;
+    font-weight: 700;
+    color: #78849E;
+}
+
+.sectionVideoLists .block .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #CDD2DC;
+    border-bottom: 1px solid #CDD2DC;
+}
+
+.sectionVideoLists .block .icons>div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.47vh;
+    height: 4.93vh;
+    width: 100%;
+}
+
+.sectionVideoLists .block .icons>div::after {
+    content: "";
+    width: 0;
+    height: 3.2vh;
+    border-left: 1px solid #CDD2DC;
+}
+
+.sectionVideoLists .block .icons>div:last-child::after {
+    border: none;
+}
+
+.sectionVideoLists .block .icons div img,
+.sectionVideoLists .block .icons div svg {
+    margin-left: 5.6vw;
+    width: 5.3vw;
+    height: 5.3vw;
+}
+
+.sectionVideoLists .block .icons div .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #78849E;
+    font-size: 13px;
+    font-weight: 700;
+    width: 18.67vw;
+    height: 2.46vh;
+    letter-spacing: 0;
+    margin-right: 4vw;
+}
+
+.sectionVideoLists .block .commentList {
+    width: 100%;
+    height: 100%;
+    margin-top: 1.23vh;
+}
+
+.sectionVideoLists .block .commentList .commentBlock {
+    width: 92vw;
+    height: 12.315vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: grid;
+    grid-template-columns: 8vw 74.67vw auto;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .profile {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background: #78849E;
+    margin-top: .615vh;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .text {
+    margin-left: 1.87vw;
+    margin-top: .615vh;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .text .commentTop .name {
+    font-size: 13px;
+    color: #000;
+    font-weight: 500;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .text .commentTop .date {
+    font-size: 12px;
+    font-weight: 500;
+    color: #78849E;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .text .commentMiddle {
+    margin-top: .74vh;
+    margin-bottom: .31vh;
+    width: 74.67vw;
+    height: 5.17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eaeaea;
+    border-radius: 10px;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .text .commentMiddle p {
+    width: 71.47vw;
+    height: 4.43vh;
+    line-height: 2.215vh;
+    font-size: 12px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .text .commentMiddle p .tag {
+    font-weight: 500;
+    color: #003cff;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .text .commentBottom {
+    margin-top: .86vh;
+    font-size: 12px;
+    font-weight: 500;
+    color: #78849E;
+    text-align: end;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .text .commentBottom .like {
+    margin-right: 2.67vw;
+}
+
+.sectionVideoLists .block .commentList .commentBlock .more {
+    width: 1.06vw;
+    height: auto;
+    margin: auto;
+    margin-right: 0;
+}
+
+.refresh {
+    display: block;
+    width: 13.33vw;
+    height: 13.33vw;
+    margin: 0 auto;
+    margin-bottom: 2.22vh;
+}
+
+/* FOOTER */
+#footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    height: 7.47vh;
+    background: #fff;
+    z-index: 998;
+}
+
+#footer .icon a img {
+    width: 6.04vw;
+}
+
+#footer .icon.active a .text {
+    color: #4FB948;
+}
+
+#footer .icon a .text {
+    font-size: 10px;
+}

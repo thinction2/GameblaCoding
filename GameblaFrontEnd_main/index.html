@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>GAMEBLA | Front-end</title>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/index.css">
+    <script src="./assets/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="./assets/Img/Logo.png" alt="">
+        </div>
+        <div class="btnWrap">
+            <img src="./assets/Img/icons/search.png" alt="" class="search">
+            <div class="alarm">
+                <img src="./assets/Img/icons/alarm.png" alt="">
+                <div class="new"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section sectionSlider">
+        <img src="./assets/Img/sliderSample1.png" alt="">
+    </section>
+
+    <section class="section sectionTop">
+        <div class="topIcon">
+            <div class="imgCircle">
+                <img src="./assets/Img/sampleImg.jpg" alt="" class="gameImg">
+            </div>
+            <p class="title">리그오브레전드</p>
+        </div>
+        <div class="topIcon">
+            <div class="imgCircle">
+                <img src="./assets/Img/sampleImg.jpg" alt="" class="gameImg">
+            </div>
+            <p class="title">마블어벤저스</p>
+        </div>
+        <div class="topIcon">
+            <div class="imgCircle">
+                <img src="./assets/Img/sampleImg.jpg" alt="" class="gameImg">
+            </div>
+            <p class="title">오버워치</p>
+        </div>
+        <div class="topIcon">
+            <div class="imgCircle">
+                <img src="./assets/Img/sampleImg.jpg" alt="" class="gameImg">
+            </div>
+            <p class="title">로스트아크</p>
+        </div>
+        <div class="topIcon">
+            <div class="imgCircle">
+                <img src="./assets/Img/sampleImg.jpg" alt="" class="gameImg">
+            </div>
+            <p class="title">메이플스토리</p>
+        </div>
+        <div class="topIcon">
+            <div class="imgCircle">
+                <img src="./assets/Img/sampleImg.jpg" alt="" class="gameImg">
+            </div>
+            <p class="title">NBA2K21</p>
+        </div>
+        <div class="topIcon">
+            <div class="imgCircle">
+                <img src="./assets/Img/sampleImg.jpg" alt="" class="gameImg">
+            </div>
+            <p class="title">스타크래프트</p>
+        </div>
+        <div class="topIcon more">
+            <div class="imgCircle">
+                <img src="./assets/Img/icons/moreBtn.png" alt="" class="gameImg">
+            </div>
+            <p class="title">MORE</p>
+        </div>
+    </section>
+
+    <section class="section sectionVideo">
+
+        <div class="titleWrapper">
+            <h3 class="sectionTitle vid active">
+                VIDEO
+            </h3>
+            <h3 class="sectionTitle live">
+                LIVE
+            </h3>
+        </div>
+        <div class="vidContainer listContainer active">
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 105만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>어몽어스 유저들을 100% 농락하는 전설의 검ㅎㄷㄷ 우와우</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            LCK
+                        </div>
+                        <div class="time">
+                            6:48
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 58만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>살아 | T1 vs 아프리카 H/L 09.08 | 2020 월즈 LCK 선발전</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우왁굳의 게임방송
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 99만 회</span>
+                    <span>·</span>
+                    <span class="date">4일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>편의점 알바하면 찾아오는 진상들이 한 번에 다 온다면? 대박</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 21만 회</span>
+                    <span>·</span>
+                    <span class="date">5일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>패치노트 #6.3 요점정리 - 판처파우스트, M249 / Tomhanks 니가 왜 거기서 나와</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 105만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>어몽어스 유저들을 100% 농락하는 전설의 검ㅎㄷㄷ 우와우</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 58만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>살아 | T1 vs 아프리카 H/L 09.08 | 2020 월즈 LCK 선발전</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 99만 회</span>
+                    <span>·</span>
+                    <span class="date">4일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>편의점 알바하면 찾아오는 진상들이 한 번에 다 온다면? 대박</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 21만 회</span>
+                    <span>·</span>
+                    <span class="date">5일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>패치노트 #6.3 요점정리 - 판처파우스트, M249 / Tomhanks 니가 왜 거기서 나와</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 105만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>어몽어스 유저들을 100% 농락하는 전설의 검ㅎㄷㄷ 우...주하마</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 58만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>살아 | T1 vs 아프리카 H/L 09.08 | 2020 월즈 LCK 선발전</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="liveContainer listContainer">
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">시청자 1천 명</span>
+                    <span>·</span>
+                    <span class="date">2시간 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>간만에 오버워치 배치보기 (❀╹◡╹)ﾉ</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">시청자 7천 명</span>
+                    <span>·</span>
+                    <span class="date">5시간 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>[생]강만식 사일러스 밥먹으면서 롤 깨우쳤다 담백하게 보... 여준다 배치부터 마스터 노방종LOL</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">시청자 1.1만 명</span>
+                    <span>·</span>
+                    <span class="date">10시간 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>DRX Deft</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">시청자 586명</span>
+                    <span>·</span>
+                    <span class="date">1시간 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>[생]블랙워크 PCS3 마지막예선 ㄷㄱㄷㄱ 배틀그라운드</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 105만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>어몽어스 유저들을 100% 농락하는 전설의 검ㅎㄷㄷ 우와우</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 58만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>살아 | T1 vs 아프리카 H/L 09.08 | 2020 월즈 LCK 선발전</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 99만 회</span>
+                    <span>·</span>
+                    <span class="date">4일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>편의점 알바하면 찾아오는 진상들이 한 번에 다 온다면? 대박</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 21만 회</span>
+                    <span>·</span>
+                    <span class="date">5일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>패치노트 #6.3 요점정리 - 판처파우스트, M249 / Tomhanks 니가 왜 거기서 나와</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 105만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>어몽어스 유저들을 100% 농락하는 전설의 검ㅎㄷㄷ 우와우</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="thumbnail">
+                    <img src="./assets/Img/sampleImg.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="thumbInfo">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="name">
+                            우주하마
+                        </div>
+                        <div class="time">
+                            10:04
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <span class="look">조회 58만 회</span>
+                    <span>·</span>
+                    <span class="date">1일 전</span>
+                </div>
+                <div class="vidTitle">
+                    <p>살아 | T1 vs 아프리카 H/L 09.08 | 2020 월즈 LCK 선발전</p>
+                </div>
+            </div>
+        </div>
+
+        <img src="./assets/Img/icons/refresh.png" alt="" class="refresh">
+
+    </section>
+
+    <footer id="footer">
+        <div class="icon">
+            <a href="">
+                <img src="./assets/Img/icons/home.png" alt="" class="iconImg">
+                <div class="text">홈</div>
+            </a>
+        </div>
+        <div class="icon">
+            <a href="">
+                <img src="./assets/Img/icons/_video.png" alt="" class="iconImg">
+                <div class="text">동영상</div>
+            </a>
+        </div>
+        <div class="icon">
+            <a href="">
+                <img src="./assets/Img/icons/_streaming.png" alt="" class="iconImg">
+                <div class="text">라이브</div>
+            </a>
+        </div>
+        <div class="icon">
+            <a href="">
+                <img src="./assets/Img/icons/_feed.png" alt="" class="iconImg">
+                <div class="text">피드</div>
+            </a>
+        </div>
+        <div class="icon">
+            <a href="">
+                <img src="./assets/Img/icons/_user.png" alt="" class="iconImg">
+                <div class="text">MY</div>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./assets/index.js"></script>
+</body>
+</html>
